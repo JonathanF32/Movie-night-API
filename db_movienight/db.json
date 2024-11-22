@@ -1,0 +1,67 @@
+{
+  "pelicula": [
+    {
+      "id": "1",
+      "nombre": "The Exorcist",
+      "imagen": "Peliculas/Exorcista.jpg",
+      "precio": "7.700",
+      "puntuacion": "10/10"
+    },
+    {
+      "id": "2",
+      "nombre": "Saw",
+      "imagen": "Peliculas/saw.jfif",
+      "precio": "6.500",
+      "puntuacion": "9/10"
+    },
+    {
+      "id": "3",
+      "nombre": "The Grudge",
+      "imagen": "Peliculas/El Grito.jpg",
+      "precio": "5.700",
+      "puntuacion": "9/10"
+    },
+    {
+      "id": "4",
+      "nombre": "Chucky",
+      "imagen": "Peliculas/Chucky.jpg",
+      "precio": "3.800",
+      "puntuacion": "7/10"
+    },
+    {
+      "id": "5",
+      "nombre": "Friday the 13th",
+      "imagen": "Peliculas/Martes 13.jpg",
+      "precio": "5.200",
+      "puntuacion": "7/10"
+    },
+    {
+      "id": "6",
+      "nombre": "The Ring",
+      "imagen": "Peliculas/El aro.jpg",
+      "precio": "5.500",
+      "puntuacion": "8/10"
+    },
+    {
+      "id": "7",
+      "nombre": "Halloween",
+      "imagen": "Peliculas/Halloween.jpg",
+      "precio": "3.900",
+      "puntuacion": "6/10"
+    },
+    {
+      "id": "8",
+      "nombre": "Freddy Kruger",
+      "imagen": "Peliculas/A nightmare on elm street.jpg",
+      "precio": "5.350",
+      "puntuacion": "7/10"
+    },
+    {
+      "id": "9",
+      "nombre": "Scream",
+      "imagen": "Peliculas/Scream.jpg",
+      "precio": "3.500",
+      "puntuacion": "8/10"
+    }    
+  ]
+}
