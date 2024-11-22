@@ -1,0 +1,82 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">    <link rel="stylesheet" href="/css/styles.css">    
+        <title>Challenge Alura Geek</title>
+        <!-- <script src="/js/dom.js" defer></script>        
+        <script src="/js/api.js" defer></script> -->
+        <!-- <script src="/js/conexionAPI.js"></script> -->
+        <script src="/js/mostrarPelicula.js" defer type="module"></script>
+        <script src="/js/crearPelicula.js" defer type="module"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <p class="logo">Movie Night</p>
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>
+                    Horror Movie
+                </h2>
+                <ul data-lista>                
+                    <!-- <li class="pelicula_borde">
+                        <img src="/Peliculas/Exorcista.jpg" alt="Exorcist Movie" class="pelicula_imagen">
+                        <h3>The Exorcist</h3>
+                        <div class="pelicula_puntuacion">
+                            <p>$7.700</p>
+                            <i class="fa fa-star" aria-hidden="true"><span class="pelicula_puntuacion_color"> 10 / 10</span></i>
+                            <i class="fa fa-trash" aria-hidden="true" id="eliminar" data-id></i>
+                        </div>
+                    </li> -->
+
+                    
+                </ul>
+            </section>
+                
+            <form action="post" id="movieForm" data-formulario>
+                <h2>
+                    Add Movie
+                </h2>
+                <fieldset>
+                    <label for="nombre"><input type="text" id="nombre" name="nombre" placeholder="Nombre..." data-nombre required></label>
+
+                   <label for="imagen"><input id="imagen" name="imagen" data-imagen placeholder="Cargar URL de imagen..."></label>
+
+
+                    <!-- previanete era un input de tipo file
+                   <label for="imagen" class="label_imagen"><input type="file" id="imagen" name="imagen" class="input-file" data-imagen ><span>Upload...</span></label> -->
+
+                    <label for="precio"><input type="text" id="precio" name="precio" placeholder="Precio..." data-precio required></label>
+
+                    <label for="precio"><input type="number" id="puntuacion" name="puntuacion" placeholder="Puntuacion..." data-puntuacion required></label>
+
+
+                   
+
+                </fieldset>
+                <fieldset class="botones">
+                    
+                        <input type="submit" value="Load" id="submit"> </input>
+                    
+                        <input type="submit" value="Clean" id="clean"> </input>
+                        
+                    
+                </fieldset>
+            </form>
+            
+        </main>
+        <footer class="Copyright">
+
+            <p class="footer_letra">Copyright 2024 &#169 Todos los derechos reservados. Design Jonathan Flores.</p>
+
+        </footer>
+        
+    </body>
+    </html>

@@ -1,0 +1,22 @@
+Bienvenidos a la API MovieNight en ella podras ver tus peliculas de terror favoritas
+
+A- Cargar lista de videos: Para cargar la lista de videos de forma dinamica
+desde la base de datos abra el visual studio code y en la terminal
+copiar los siguientes codigos en este orden:
+cd .\db_movienight\
+json-server --watch db.json
+De esta manera se cargara automaticamente nuestra lista de peliculas
+
+B- Agregar pelicula. Para agregar una pelicula siga los siguientes pasos:
+1) Coloque el nombre de la pelicula
+2) En la carpeta "Peliculas" Guarde una imagen de la pelicula luego
+en la pagina cargue la URL de la imagen + la extension. Ejemplo "Peliculas/Scream.jpg"
+3) Coloque el precio de la pelicula sin la necesidad de agregar el signo peso "$"
+4) De una puntuacion de la pelicula en base a cuanto le gustó
+
+C- Si deseas eliminar una pelicula solo debes apuntar el mouse y hacer click en el
+cesto que esta justo en el lado derecho de las estrellas donde se puntuan las peliculas
+
+
+
+
